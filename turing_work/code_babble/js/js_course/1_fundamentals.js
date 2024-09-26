@@ -18,6 +18,8 @@
 
 // **IMPORTANT:** The `**` operator is not supported in this editor. Please make sure to use exactly this formula `mass / (height * height)`, and not this one `mass / (height ** 2)`.
 
+// solution//
+
 massMark = 78;
 heightMark = 1.69;
 
@@ -32,3 +34,4 @@ let markHigherBMI = BMIMark > BMIJohn
 
 console.log(BMIMark, BMIJohn);
 console.log(markHigherBMI);
+
