@@ -109,3 +109,32 @@ if (scoreDolphins > scoreKoalas) {
 } else {
   console.log("Both win the trophy");
 }
+
+// The Switch Statement -- used as an alternative for a complex if/else statement 
+//example we will have a const for each day of the week and then an activity for each day
+
+const day = 'monday';
+
+switch (day) { //compare day to monday > day === 'monday' and if true execute 
+  case 'monday':
+    console.log('Plan course structure');
+    console.log('Go to coding meetup');
+    break;
+  case 'tuesday':
+    console.log('Prepare theory videos');
+    break;
+  case 'wednesday':
+  case 'thursday': //if we want to run the same code for 2 cases, we can just write the next case right under the previous one, then it will execute the code for the bottom case.
+    console.log('Write code examples');
+    break;
+  case 'friday':
+    console.log('Record Videos');
+    break;
+  case 'saturday':
+  case 'sunday':
+    console.log('Enjoy the weekend')
+    break;
+  default:
+    console.log('Not a valid day!') // this will execute if all the other cases fail. 
+}
+
