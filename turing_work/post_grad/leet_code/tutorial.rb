@@ -1,3 +1,12 @@
+# Root equals sum of children - intro binary tree
+def check_tree(root)
+  puts root
+  if root.left.val + root.right.val == root.val
+      true
+  else 
+      false 
+  end
+end
 
 
 # Running Sum of a 1D array
