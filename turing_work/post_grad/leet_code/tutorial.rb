@@ -1,3 +1,15 @@
+
+
+# Running Sum of a 1D array
+def running_sum(nums)
+  sum = 0 
+  cumulative_sum = nums.map do |element, i|
+      sum += element
+  end
+  cumulative_sum
+end
+
+# Richest Customer Wealth
 accounts = [[1,2,3],[3,2,1]]
 
 def maximum_wealth(accounts)
